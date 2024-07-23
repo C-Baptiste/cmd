@@ -1,0 +1,60 @@
+# php
+sudo dnf info php
+dnf module list php
+dnf module enable php:8.2
+sudo dnf info php
+sudo dnf install php
+
+# composer
+sudo dnf install composer
+
+# symfony cli
+curl -1sLf 'https://dl.cloudsmith.io/public/symfony/stable/setup.rpm.sh' | sudo -E bash
+sudo dnf install symfony-cli
+
+# new project
+symfony new symfony01 --version="6.4.*" --webapp
+
+# display info
+php bin/console about
+
+# start local dev
+symfony server:start
+
+#
+symfony check:security
+
+# list cmd
+symfony console
+php bin/console
+
+symfony console debug:router
+
+# composer require twig
+
+
+
+# install from source
+wget 
+./configure --prefix=/home/...
+make
+make install
+
+
+wget https://www.php.net/distributions/php-8.3.9.tar.gz
+tar -xf php-8.3.9.tar.gz 
+export SQLITE_CFLAGS="-I/home/reverb/sqlite/usr/include"
+export SQLITE_LIBS="-L/home/reverb/sqlite/usr/lib -lsqlite3"
+./configure --enable-debug --prefix=/home/reverb/php/php/
+make -j4
+make TEST_PHP_ARGS=-j4 test
+make install
+export PATH=/home/reverb/php/php/bin/:$PATH
+
+
+wget https://www.sqlite.org/2024/sqlite-autoconf-3460000.tar.gz
+ar -xf sqlite-autoconf-3460000.tar.gz 
+./configure --prefix=/home/reverb/sqlite/usr
+make
+make install
+export PATH=$PATH:/home/reverb/sqlite/usr/bin/
