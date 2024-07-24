@@ -45,7 +45,7 @@ wget https://www.php.net/distributions/php-8.3.9.tar.gz
 tar -xf php-8.3.9.tar.gz 
 export SQLITE_CFLAGS="-I/home/reverb/sqlite/usr/include"
 export SQLITE_LIBS="-L/home/reverb/sqlite/usr/lib -lsqlite3"
-./configure --enable-debug --prefix=/home/reverb/php/php/
+./configure --enable-debug --prefix=/home/reverb/php/php/ --with-openssl
 make -j4
 make TEST_PHP_ARGS=-j4 test
 make install
@@ -57,4 +57,26 @@ ar -xf sqlite-autoconf-3460000.tar.gz
 ./configure --prefix=/home/reverb/sqlite/usr
 make
 make install
-export PATH=$PATH:/home/reverb/sqlite/usr/bin/
+export PATH=/home/reverb/sqlite/usr/bin/:$PATH
+
+
+
+
+
+
+
+
+[reverb@lab02 symfony]$ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+[reverb@lab02 symfony]$ php -r "if (hash_file('sha384', 'composer-setup.php') === 'dac665fdc30fdd8ec78b38b9800061b4150413ff2e3b6f88543c636f7cd84f6db9189d43a81e5503cda447da73c7e5b6') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+Installer verified
+[reverb@lab02 symfony]$ mkdir composer
+[reverb@lab02 symfony]$ php composer-setup.php --install-dir=/home/reverb/symfony/composer
+
+
+wget https://get.symfony.com/cli/installer
+wget https://get.symfony.com/cli/installer -O - | bash
+export PATH="$HOME/.symfony5/bin:$PATH"
+
+/home/reverb/symfony/composer/composer.phar create-project symfony/skeleton:"6.4.*" test01
+/home/reverb/symfony/composer/composer.phar require webapp
+
