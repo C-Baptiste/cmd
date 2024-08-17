@@ -90,3 +90,15 @@ composer require symfony/orm-pack
 symfony console doctrine:database:create
 symfony console make:entity
 symfony console make:migration
+symfony console doctrine:migrations:status
+symfony console doctrine:migrations:migrate
+symfony console doctrine:migration:migrate --help
+composer show
+composer require --dev orm-fixtures
+symfony console doctrine:fixtures:load
+// composer require sensio/framework-extra-bundle
+// composer require symfony/form
+// symfony console make:form
+
+
+
