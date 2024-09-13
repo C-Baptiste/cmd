@@ -17,3 +17,21 @@ startup
 # need an instance to open database
 # need an spfile to construct that instance
 
+# usefull troubleshooting file
+find $ORACLE_BASE -name *alert*log*
+/opt/oracle/diag/rdbms/free/FREE/trace/alert_FREE.log
+
+select * from dba_data_files;
+
+SQL> col tablespace_name format a15
+SQL> col file_name format a50 
+SQL> select file_name, tablespace_name from dba_data_files;
+
+FILE_NAME					                      TABLESPACE_NAME
+-------------------------------------------------- ---------------
+/opt/oracle/oradata/FREE/system01.dbf		   SYSTEM
+/opt/oracle/oradata/FREE/sysaux01.dbf		   SYSAUX
+/opt/oracle/oradata/FREE/undotbs01.dbf		   UNDOTBS1
+/opt/oracle/oradata/FREE/users01.dbf		   USERS
+
+CREATE TABLE emps TABLESPACE USERS AS SELECT username from dba_users;
