@@ -55,7 +55,7 @@ server param file                          yes                    no
 alert log file                             no                     no
 data files                                 mostly no              yes
 control file                               yes                    no
-redo logs                                  yes                    yes
+online/redo logs                                  yes                    yes
 
 #redo logs
 - instance recovery (system crash)
