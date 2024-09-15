@@ -35,3 +35,34 @@ FILE_NAME					                      TABLESPACE_NAME
 /opt/oracle/oradata/FREE/users01.dbf		   USERS
 
 CREATE TABLE emps TABLESPACE USERS AS SELECT username from dba_users;
+
+# controle file stores:
+- systeme checkpoint info 
+- RMAN info
+- physical database structure
+
+SQL> show parameter control_files
+
+NAME				     TYPE	 VALUE
+------------------------------------ ----------- ------------------------------
+control_files		string	 /opt/oracle/oradata/FREE/contr
+          						 ol01.ctl, /opt/oracle/oradata/
+          						 FREE/control02.ctl
+
+
+file                                       system critical        business critical
+server param file                          yes                    no
+alert log file                             no                     no
+data files                                 mostly no              yes
+control file                               yes                    no
+redo logs                                  yes                    yes
+
+#redo logs
+- instance recovery (system crash)
+- media recovery (drive failure)
+- standby db process
+- replication 
+- logminer
+
+ACID test 
+atomicity consistency isolation durabilaty
