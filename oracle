@@ -55,7 +55,8 @@ server param file                          yes                    no
 alert log file                             no                     no
 data files                                 mostly no              yes
 control file                               yes                    no
-online/redo logs                                  yes                    yes
+online/redo logs                           yes                    yes
+password file                              no                     no
 
 #redo logs
 - instance recovery (system crash)
@@ -66,3 +67,23 @@ online/redo logs                                  yes                    yes
 
 ACID test 
 atomicity consistency isolation durabilaty
+
+select g.group#, g.status, f.member from v$log g, v$logfile f where g.group# = f.group#; 
+	 3 INACTIVE
+/opt/oracle/oradata/FREE/redo03.log
+
+	 2 INACTIVE
+/opt/oracle/oradata/FREE/redo02.log
+
+	 1 CURRENT
+/opt/oracle/oradata/FREE/redo01.log
+
+
+alter system switch logfile (eg: during a maintenance)
+
+
+------AUTH----------
+system = user
+sys = root
+OS auth & password file
+
