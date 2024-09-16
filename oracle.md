@@ -1,18 +1,15 @@
-! ipcs -a
+- ! ipcs -a
+- show parameters db_create_f
+- $ORACLE_HOME
+- find $ORACLE_HOME -name *spfile*
+	- /opt/oracle/product/23ai/dbhomeFree/dbs/spfileFREE.ora
 
-show parameters db_create_f
+- create pfile='/tmp/pfile.txt' from spfile;
+- create spfile from pfile='/tmp/pfile.txt';
 
-$ORACLE_HOME
-find $ORACLE_HOME -name *spfile*
-/opt/oracle/product/23ai/dbhomeFree/dbs/spfileFREE.ora
-
-create pfile='/tmp/pfile.txt' from spfile;
-create spfile from pfile='/tmp/pfile.txt';
-
-select count(*) from v$parameter;  ->540
-
-startup force
-startup 
+- select count(*) from v$parameter;  ->540
+- startup force
+- startup 
 
 # need an instance to open database
 # need an spfile to construct that instance
