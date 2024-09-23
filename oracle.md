@@ -82,5 +82,8 @@ atomicity consistency isolation durabilaty
 - sys = root
 - OS auth & password file
 
-
-
+## PGA and UGA and SGA
+- pga process global area -> specific to an individual process
+- uga user global area -> stores session state
+- sga system/shared global area
+- show parameter workarea
