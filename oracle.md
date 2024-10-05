@@ -87,3 +87,12 @@ atomicity consistency isolation durabilaty
 - uga user global area -> stores session state
 - sga system/shared global area
 - show parameter workarea
+
+## SGA components
+- redo buffer
+- buffer cache
+- shared pool
+- large pool
+- select * from v$sgainfo;
+
+
