@@ -122,3 +122,9 @@ atomicity consistency isolation durabilaty
 	- select t.table_name, t.tablespace_name, f.file_name from dba_tables t, dba_data_files f where t.tablespace_name = f.tablespace_name and t.table_name = 'EMPS'; 
 - segments
 - extents
+
+## Resume
+- datafiles -> physical storage
+- tablespace -> organise datafiles
+- segments -> represent database objects into tablespace
+- extents -> make up segments, contiguous data blocks
