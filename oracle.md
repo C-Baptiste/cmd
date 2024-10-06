@@ -89,10 +89,30 @@ atomicity consistency isolation durabilaty
 - show parameter workarea
 
 ## SGA components
-- redo buffer
-- buffer cache
-- shared pool
-- large pool
+- redo buffer (store instance recovery)
+- buffer cache (cache block of data, speed up data access)
+- shared pool (speed up query)
+- large pool 
+- ...
 - select * from v$sgainfo;
+- select table_name, tablespace_name from dba_tables where table_name='EMPS';
+- select file_name, tablespace_name from dba_data_files where tablespace_name='USERS';
+- select t.table_name, f.file_name from dba_tables t, dba_data_files f where t.tablespace_name = f.tablespace_name and t.table_name = 'EMPS';
+- https://docs.oracle.com/en/database/oracle/oracle-database/23/dbiad/db_sharedpool.html
+- select * from v$sgastat
+- show parameter sga_t
+- show parameter memory_target
+- show parameter log_buffer
 
-
+## PGA process global area
+- dedicated server processes
+- shared server processes
+- background processes
+	- LREG listener registrar
+ 	- SMON system monitor
+  	- DBWn database block writer
+  	- CKPT checkpoint
+  	- LGWR log writer
+- select g.group#, g.status, f.member from v$log g, v$logfile f where g.group# = f.group# order by f.group#;
+- alter system switch logfile;
+- alter system checkpoint;
