@@ -97,7 +97,7 @@ atomicity consistency isolation durabilaty
 - select * from v$sgainfo;
 - select table_name, tablespace_name from dba_tables where table_name='EMPS';
 - select file_name, tablespace_name from dba_data_files where tablespace_name='USERS';
-- select t.table_name, f.file_name from dba_tables t, dba_data_files f where t.tablespace_name = f.tablespace_name and t.table_name = 'EMPS';
+- select t.table_name, f.file_name from dba_tables t, dba_data_files f where t.tablespace_name = f.tablespace_name and t.table_name = 'EMPS'; (get physical location of table .dbf)
 - https://docs.oracle.com/en/database/oracle/oracle-database/23/dbiad/db_sharedpool.html
 - select * from v$sgastat
 - show parameter sga_t
@@ -116,3 +116,9 @@ atomicity consistency isolation durabilaty
 - select g.group#, g.status, f.member from v$log g, v$logfile f where g.group# = f.group# order by f.group#;
 - alter system switch logfile;
 - alter system checkpoint;
+
+## Logical structure
+- tablespace
+	- select t.table_name, t.tablespace_name, f.file_name from dba_tables t, dba_data_files f where t.tablespace_name = f.tablespace_name and t.table_name = 'EMPS'; 
+- segments
+- extents
