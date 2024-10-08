@@ -10,7 +10,8 @@
 
 - select count(*) from v$parameter;  ->540
 - startup force
-- startup 
+- startup
+- col name format a10
 
 ### need an instance to open database
 ### need an spfile to construct that instance
@@ -128,3 +129,35 @@ atomicity consistency isolation durabilaty
 - tablespace -> organise datafiles
 - segments -> represent database objects into tablespace
 - extents -> make up segments, contiguous data blocks
+
+## Multitenancy and sharding
+- pluggable database PDB
+- find $ORACLE_HOME -name *login.sql*
+- select con_id, name, open_mode from v$containers;
+- root container = CDB$root
+- PDB$seed
+
+## Dictionary prefixes 
+- static non-multitenant views
+	- DBA_
+	- ALL_
+	- USER_
+- dynamic performance views
+	- V$_
+ 	- GV$_
+- static multitenant related views
+	- CDB_
+## Common dictionary suffixes
+- _INDEXES
+- _JOBS
+- _TRIGGERS
+- _SYNONYMS
+- _PROCEDURES
+- _SEQUENCES
+- _CONTAINERS
+- _VIEWS
+- _TABLES
+- _OBJECTS
+- select distinct object_type from dba_objects;
+- select distinct object_type from all_objects;
+- select distinct object_type from user_objects;
