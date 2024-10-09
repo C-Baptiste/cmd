@@ -161,3 +161,6 @@ atomicity consistency isolation durabilaty
 - select distinct object_type from dba_objects;
 - select distinct object_type from all_objects;
 - select distinct object_type from user_objects;
+
+## instance
+- startup (sqlplus cmd)
