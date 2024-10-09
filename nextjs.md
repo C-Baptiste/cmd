@@ -1,1 +1,5 @@
-
+- sudo dnf install gcc
+- sudo dnf install g++
+- ./configure --prefix=/home/zoo/nodejs/bin/ 
+- make
+- make install
