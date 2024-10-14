@@ -164,3 +164,37 @@ atomicity consistency isolation durabilaty
 
 ## instance
 - startup (sqlplus cmd)
+- select name, value from v$parameter where name like '%spf%' or name like 'co%es';
+- select name from v$datafile;
+- select member from v$logfile;
+
+#### stages of startup
+- nomount -> spfile -> build the instance
+- mount -> control files -> mounts the database
+- open -> data files + redo logs -> opens the db
+
+# manage users, roles and privileges
+
+## create user account
+- show con_name;
+- SELECT CON_ID, NAME, OPEN_MODE FROM V$PDBS;
+- alter session set container = FREEPDB1;
+- create user zoo identified by oracle default tablespace zoospace password expire;
+- select username, account_status,default_tablespace from dba_users;
+
+
+## common system privileges
+- create session (lets users connect)
+- alter database
+- alter system
+- create tablespace
+- create table (own schema)
+- grant any object privileges
+- create any table (all schema)
+- select any table
+
+#### command
+- grant create any table to zoo with admin option;
+- select distinct(privilege) from dba_sys_privs;
+
+### object privileges
