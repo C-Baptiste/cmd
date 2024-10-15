@@ -65,6 +65,7 @@ ACID test
 atomicity consistency isolation durabilaty
 
 - select g.group#, g.status, f.member from v$log g, v$logfile f where g.group# = f.group#; 
+
 		 3 INACTIVE
 	/opt/oracle/oradata/FREE/redo03.log
 	
@@ -171,8 +172,9 @@ atomicity consistency isolation durabilaty
 #### stages of startup
 - nomount -> spfile -> build the instance
 - mount -> control files -> mounts the database
-- open -> data files + redo logs -> opens the db
-
+- open -> data files + redo logs -> opens the db  
+select status from v$instance;  
+ALTER DATABASE OPEN;
 # manage users, roles and privileges
 
 ## create user account
@@ -198,3 +200,40 @@ atomicity consistency isolation durabilaty
 - select distinct(privilege) from dba_sys_privs;
 
 ### object privileges
+- grant select on zoo.table to ...
+- select
+- insert
+- update
+- delete
+- alter
+- execute
+- grant create session zoo;
+
+### roles
+- create role xxx;
+- managing privilege with roles
+- grant select ... to role xxx
+- grant role to user...
+#### predefined role
+- connect
+- resource
+- dba
+- select_catalog_tolr
+- public
+
+### profiles
+- composite_limit
+- connect_time
+- cpu_per_call
+- cpu_per_session
+- idle_time
+- logical_reads_per_call
+- logical_reads_per_session
+- private_sga
+- sessions_per_user
+- ...
+
+### PDB
+- ALTER SYSTEM SET DB_CREATE_FILE_DEST = '/opt/oracle/oradata';
+- CREATE PLUGGABLE DATABASE zoo ADMIN USER zoo IDENTIFIED BY zoo;
+
