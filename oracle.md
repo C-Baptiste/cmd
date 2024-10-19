@@ -198,6 +198,12 @@ ALTER DATABASE OPEN;
 #### command
 - grant create any table to zoo with admin option;
 - select distinct(privilege) from dba_sys_privs;
+- select * from dba_sys_privs where grantee = 'SYS';
+- dba/user_sys_privs
+- dba/user_tab_privs
+- dba/user_role_privs
+
+
 
 ### object privileges
 - grant select on zoo.table to ...
