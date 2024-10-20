@@ -65,3 +65,34 @@ extension=oci8.so
 - symfony console doctrine:database:drop
 
 
+- grant create session to C##ECONOMICS;
+- SELECT tablespace_name, file_name FROM dba_data_files;
+- alter session set container = economics;
+- create tablespace economics datafile 'economics01.dbf' size 100M autoextend on next 100M maxsize 500M;
+- select tablespace_name, con_id from cdb_tablespaces;
+- alter user c##economics default tablespace economics;
+- alter user c##economics quota 100M on economics;
+
+- col username format a10;SQL> col account_status format a10;SQL> select username, account_status,default_tablespace from dba_users;
+
+
+- CREATE PLUGGABLE DATABASE economics
+  ADMIN USER economics IDENTIFIED BY economics
+  ROLES = (dba)
+  DEFAULT TABLESPACE economics
+    DATAFILE '/opt/oracle/oradata/FREE/economics/economics01.dbf' SIZE 250M AUTOEXTEND ON
+  FILE_NAME_CONVERT = ('/opt/oracle/oradata/FREE/pdbseed/',
+                       '/opt/oracle/oradata/FREE/economics/')
+  STORAGE (MAXSIZE 1G)
+  PATH_PREFIX = '/opt/oracle/oradata/FREE/economics/';
+- show pdbs;
+- alter pluggable database economics open;
+
+
+
+### .env db url connection
+- https://www.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/configuration.html#configuration
+- service (boolean): Whether to use Oracle's SERVICE_NAME connection parameter in favour of SID when connecting. The value for this will be read from Doctrine's servicename if given, dbname otherwise.
+- doctrine.yaml -> service: true
+- other idea: not tested
+	- USE_SID_AS_SERVICE_listener=on -> add this in listener.ora file

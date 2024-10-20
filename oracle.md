@@ -220,6 +220,14 @@ ALTER DATABASE OPEN;
 - managing privilege with roles
 - grant select ... to role xxx
 - grant role to user...
+- select role from dba_roles;
+- select * from dba_role_privs where granted_role = 'DBA';
+- select * from user_role_privs where granted_role = 'DBA';
+- select * from dba_sys_privs where grantee = 'CONNECT';
+- select * from user_sys_privs;
+- select * from user_tab_privs where grantee = 'DBA';
+- select * from dba_tab_privs where grantee = 'DBA';
+
 #### predefined role
 - connect
 - resource
@@ -242,4 +250,16 @@ ALTER DATABASE OPEN;
 ### PDB
 - ALTER SYSTEM SET DB_CREATE_FILE_DEST = '/opt/oracle/oradata';
 - CREATE PLUGGABLE DATABASE zoo ADMIN USER zoo IDENTIFIED BY zoo;
+- select file_name from dba_data_files;
+- alter session set container = economics; select file_name from dba_data_files;
+- drop pluggable database economics including datafiles;
+- SELECT CDB FROM V$DATABASE;
+- COLUMN NAME FORMAT A8; SELECT NAME, CON_ID, DBID, CON_UID, GUID FROM V$CONTAINERS ORDER BY CON_ID;
+- show pdbs;
+- alter pluggable database economics open;
 
+### tablespace 
+- SELECT tablespace_name, file_name FROM dba_data_files;
+
+### dual
+- select sys_context('userenv','instance_name') from dual;
