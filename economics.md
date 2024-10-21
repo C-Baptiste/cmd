@@ -71,7 +71,7 @@ extension=oci8.so
 - create tablespace economics datafile 'economics01.dbf' size 100M autoextend on next 100M maxsize 500M;
 - select tablespace_name, con_id from cdb_tablespaces;
 - alter user c##economics default tablespace economics;
-- alter user c##economics quota 100M on economics;
+- alter user economics quota 300M on economics;
 
 - col username format a10;SQL> col account_status format a10;SQL> select username, account_status,default_tablespace from dba_users;
 
@@ -96,3 +96,19 @@ extension=oci8.so
 - doctrine.yaml -> service: true
 - other idea: not tested
 	- USE_SID_AS_SERVICE_listener=on -> add this in listener.ora file
+- symfony console doctrine:query:sql "select table_name from user_tables"
+- DATABASE_URL="oci8://user:pwd@oracleServer:1521/dbnameOrServicename"
+
+- cd economics_b2
+- code .
+- .env & doctrine.yaml
+- symfony console doctrine:query:sql "select table_name from user_tables"
+- symfony console make:entity
+- symfony console make:migration
+- symfony console doctrine:migrations:migrate
+- symfony console doctrine:query:sql "select table_name from user_tables"
+- composer require easycorp/easyadmin-bundle
+- php bin/console make:admin:dashboard
+- php bin/console make:admin:crud
+
+- symfony console doctrine:migrations:execute 'DoctrineMigrations\Version20241021163532' --down
