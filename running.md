@@ -249,3 +249,251 @@ L'entrainement s'allège pour arriver avec de la fraîcheur au départ de la cou
 - VMA 8 x 200 mètres
 - 20 minutes de footing + 5 accélérations
 - échauffement pour le jour de course
+
+
+
+
+# Améliorer sa vitesse / sa VMA - 4 séances par semaine
+
+Semaine 1 - Découverte des allures 
+
+01. VMA 2x 8 x (30s - 30s)
+02. 45 minutes de footing
+03. VMA 8x (1min30 - 50s)
+04. 1h de footing sur terrain plat
+
+
+Semaine 2 - Première séance de côtes ! 
+
+05. VMA 2x 10x (45s - 40s)
+06. 1h de footing
+07. 10x 30s en côte
+08. 1h15 de footing sur terrain plat
+
+Semaine 3 - Augmentation progressive des temps de course 
+
+09. VMA 12x (1min30 - 1min)
+10. 1h de footing
+11. VMA 6x (3min - 1min30)
+12. 1h30 de footing sur terrain plat
+
+Semaine 4 - Semaine de régénération. 
+
+13. 45 minutes de footing
+14. 45 minutes de footing
+15. 1h15 de footing sur terrain plat
+16. repos
+
+Semaine 5 - Charge d'entraînement importante 
+
+
+17. 15x 30s en côte
+18. 45 minutes de footing
+19. VMA 5x (4min - 2 min)
+20. 1h de footing sur terrain plat
+
+Semaine 6 - Deuxième semaine d'entrainement intensif 
+
+
+21. VMA 15x (45s - 30s)
+22. 1h de footing
+23. VMA 8x 2min en côte
+24. 1h15 de footing sur terrain plat
+
+Semaine 7 - Troisième semaine exigeante 
+
+
+25. VMA courte 2x 10 x (40s - 30s)
+26. 1h de footing
+27. VMA 3x (3min - 2min - 1min)
+28. 1h30 de footing
+
+
+Semaine 8 - Dernière semaine du plan 
+
+
+29. VMA 12x (30s - 30s)
+30. 45 minutes de footing
+31. 20min de footing + 5 accélérations
+32. repos ou compétition courte
+
+
+
+
+
+Séance 1 : VMA 2x 8 x (30s - 30s)
+
+Après un échauffement (20 minutes de footing, PPG et 3 accélérations), vous ferez un effort presque maximal sur 30 secondes et ensuite vous trottinerez très lentement pendant 30 secondes avant de recommencer pour un total de 8 répétitions.
+
+Après 2 minutes de récupération en trottinant, vous recommencerez pour la deuxième série.
+
+Vous finirez la séance par un retour au calme de 10 minutes (sans dépasser de 65% cardio) pour détendre les muscles et faire baisser progressivement les pulsations.
+
+Votre récupération s'effectuera plus rapidement et votre corps sera plus apte à accepter la séance suivante.
+
+Vous réaliserez les répétitions à 105% de votre VMA.
+La séance durera environ 1h05. 
+
+
+Séance 3 : VMA 8x (1min30 - 50s)
+
+Après un échauffement (30 minutes de footing, PPG et 3 accélérations), vous ferez un effort presque maximal sur 1 minute 30 secondes et ensuite vous trottinerez très lentement pendant 50 secondes avant de recommencer pour un total de 8 répétitions.
+
+Vous finirez la séance par un retour au calme de 15 minutes (sans dépasser de 65% cardio) pour détendre les muscles et faire baisser progressivement les pulsations.
+
+Votre récupération s'effectuera plus rapidement et votre corps sera plus apte à accepter la séance suivante.
+
+Vous réaliserez les répétitions entre 95 et 100% de votre VMA.
+La séance durera environ 1h20. 
+
+
+Séance 5 : VMA 2x 10x (45s - 40s)
+
+Après un échauffement (20 minutes de footing, PPG et 3 accélérations), vous ferez un effort presque maximal sur 45 secondes et ensuite vous trottinerez très lentement pendant 40 secondes avant de recommencer pour un total de 10 répétitions.
+
+Après 2 minutes de récupération en trottinant, vous recommencerez pour la deuxième série.
+
+Vous finirez la séance par un retour au calme de 10 minutes (sans dépasser de 65% cardio) pour détendre les muscles et faire baisser progressivement les pulsations.
+
+Votre récupération s'effectuera plus rapidement et votre corps sera plus apte à accepter la séance suivante.
+
+Vous réaliserez les répétitions à 105% de votre VMA.
+La séance durera environ 1h20. 
+
+
+Séance 7 : 10x 30s en côte
+
+Après un échauffement (20 minutes, PPG, 3 accélérations progressives) vous courrez 30 secondes en côte.
+La récupération se fera en redescendant tranquillement au point de départ, soit environ 40 secondes
+
+Vous renouvellerez 10 fois cet exercice avant de faire un retour au calme de 10 minutes.
+
+Essayez de trouver une pente régulière, entre 5 et 10% et avec un recouvrement régulier. Ainsi vous pourrez vous concentrer sur votre effort.
+Vous devez garder une foulée normale, identique à celle sur le plat.
+
+Veillez à ne pas vous affaisser au fil des répétitions. Rester aussi « grand » que possible sans jamais subir la pente.
+
+Vous réaliserez les répétitions à l'équivalent de 105% de votre VMA.
+La séance durera environ 1 heure. 
+
+
+Séance 9 : VMA 12x (1min30 - 1min)
+
+Après un échauffement (20 minutes de footing, PPG et 3 accélérations), vous allez faire un effort presque maximal sur 1 minute 30 et ensuite trottiner très lentement pendant 1 minute avant de recommencer pour un total de 12 répétitions.
+
+Vous finirez la séance par un retour au calme de 10 minutes (sans dépasser de 65% cardio) pour détendre les muscles et faire baisser progressivement les pulsations.
+
+Votre récupération s'effectuera plus rapidement et votre corps sera plus apte à accepter la séance suivante.
+
+Vous réaliserez les répétitions entre 95 et 100% de votre VMA.
+La séance durera environ 1h15. 
+
+
+Séance 11 : VMA 6x (3min - 1min30)
+
+Après un échauffement (30 minutes de footing, PPG et 3 accélérations), vous allez faire un effort presque maximal sur 3 minutes et ensuite trottiner très lentement pendant 1 minute 30 avant de recommencer pour un total de 6 répétitions.
+
+Vous finirez la séance par un retour au calme de 15 minutes (sans dépasser de 65% cardio) pour détendre les muscles et faire baisser progressivement les pulsations.
+
+Votre récupération s'effectuera plus rapidement et votre corps sera plus apte à accepter la séance suivante.
+
+Vous réaliserez les répétitions entre 90 et 95% de votre VMA.
+La séance durera environ 1h30. 
+
+
+Séance 17 : 15x 30s en côte
+
+Après un échauffement (20 minutes, PPG, 3 accélérations progressives) vous courrez 30 secondes en côte.
+La récupération se fera en redescendant tranquillement au point de départ, soit environ 40 secondes.
+
+Vous renouvellerez 15 fois cet exercice avant de faire un retour au calme de 10 minutes.
+
+Essayez de trouver une pente régulière, entre 5 et 10% et avec un recouvrement régulier. Ainsi vous pourrez vous concentrer sur votre effort.
+Vous devez garder une foulée normale, identique à celle sur le plat.
+
+Veillez à ne pas vous affaisser au fil des répétitions. Rester aussi « grand » que possible sans jamais subir la pente.
+
+Vous réaliserez les répétitions à l'équivalent de 105% de votre VMA.
+La séance durera environ 1h05. 
+
+
+Séance 19 : VMA 5x (4min - 2 min)
+
+Après un échauffement (30 minutes de footing, PPG et 3 accélérations), vous allez faire un effort presque maximal sur 4 minutes et ensuite trottiner très lentement pendant 2 minutes avant de recommencer pour un total de 5 répétitions.
+
+Vous finirez la séance par un retour au calme de 15 minutes (sans dépasser de 65% cardio) pour détendre les muscles et faire baisser progressivement les pulsations.
+
+Votre récupération s'effectuera plus rapidement et votre corps sera plus apte à accepter la séance suivante.
+
+Vous réaliserez les répétitions à 90% de votre VMA.
+La séance durera environ 1h30. 
+
+
+Séance 21 : VMA 15x (45s - 30s)
+
+Après un échauffement (20 minutes de footing, PPG et 3 accélérations), vous ferez un effort presque maximal sur 45 secondes et ensuite vous trottinerez très lentement pendant 30 secondes avant de recommencer pour un total de 15 répétitions.
+
+Vous finirez la séance par un retour au calme de 10 minutes (sans dépasser de 65% cardio) pour détendre les muscles et faire baisser progressivement les pulsations.
+
+Votre récupération s'effectuera plus rapidement et votre corps sera plus apte à accepter la séance suivante.
+
+Vous réaliserez les répétitions à 105% de votre VMA.
+La séance durera environ 1h05. 
+
+
+Séance 23 : VMA 8x 2min en côte
+
+Après un échauffement (30 minutes, PPG, 3 accélérations progressives) vous courrez 2 minutes en côte.
+La récupération se fera en redescendant au point de départ, soit 1 minute 30.
+
+Vous renouvellerez 8 fois cet exercice avant de faire un retour au calme de 15 minutes.
+
+Essayez de trouver une pente régulière, entre 5 et 10% et avec un recouvrement régulier. Ainsi vous pourrez vous concentrer sur votre effort.
+Vous devez garder une foulée identique à celle utilisée sur le plat.
+
+Veillez à ne pas vous affaisser au fil des répétitions. Rester aussi « grand » que possible sans jamais subir la pente.
+
+Vous réaliserez les répétitions à l'équivalent de 95% de votre VMA.
+La séance durera environ 1h30. 
+
+
+Séance 25 : VMA courte 2x 10 x (40s - 30s)
+
+Après un échauffement (30 minutes de footing, PPG et 3 accélérations), vous ferez un effort presque maximal sur 40 secondes et ensuite vous trottinerez très lentement pendant 30 secondes avant de recommencer pour un total de 10 répétitions.
+
+Après 2 minutes de récupération en trottinant, vous recommencerez pour la deuxième série.
+
+Vous finirez la séance par un retour au calme de 10 minutes (sans dépasser de 65% cardio) pour détendre les muscles et faire baisser progressivement les pulsations.
+
+Votre récupération s'effectuera plus rapidement et votre corps sera plus apte à accepter la séance suivante.
+
+Vous réaliserez les répétitions à 105% de votre VMA.
+La séance durera environ 1h15.
+
+
+
+Séance 27 : VMA 3x (3min - 2min - 1min)
+
+Après un échauffement (30 minutes de footing, PPG et 3 accélérations), vous allez courir 3 minutes, 2 minutes et 1 minute intercalées par 1 minute 30 de course lente afin de récupérer.
+
+Vous ferez un total de 3 répétitions de cet exercice en prenant 2 minutes de récupération en trottinant entre les séries.
+
+Vous finirez la séance par un retour au calme de 15 minutes (sans dépasser de 65% cardio) pour détendre les muscles et faire baisser progressivement les pulsations.
+
+Votre récupération s'effectuera plus rapidement et votre corps sera plus apte à accepter la séance suivante.
+
+Vous réaliserez les 3 minutes entre 90 et 95% de votre VMA, les 2 minutes à 95% de votre VMA et les 1 minute entre 100 et 105% de votre VMA.
+La séance durera environ 1h35. 
+
+
+Séance 29 : VMA 12x (30s - 30s)
+
+Après un échauffement (20 minutes de footing, PPG et 3 accélérations), vous allez faire un effort presque maximal sur 30 secondes et ensuite trottiner très lentement pendant 30 secondes avant de recommencer pour un total de 12 répétitions.
+
+Vous finirez la séance par un retour au calme de 10 minutes (sans dépasser de 65% cardio) pour détendre les muscles et faire baisser progressivement les pulsations.
+
+Votre récupération s'effectuera plus rapidement et votre corps sera plus apte à accepter la séance suivante.
+
+Vous réaliserez les répétitions à 105% de votre VMA.
+La séance durera environ 1 heure.
+
